@@ -115,12 +115,12 @@ chmod 744 start_folder-contains-space.sh
 
 <details class="wp-block-details"><summary>出力結果</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>ls $test
-ls: folder: No such file or directory
-ls: test: No such file or directory
+ls: cannot access 'test': No such file or directory
+ls: cannot access 'folder': No such file or directory
 
 ls ${test}
-ls: folder: No such file or directory
-ls: test: No such file or directory
+ls: cannot access 'test': No such file or directory
+ls: cannot access 'folder': No such file or directory
 
 ls "$test"
 test.txt
@@ -145,12 +145,12 @@ chmod 744 start_folder-contains-space.sh
 
 <details class="wp-block-details"><summary>出力結果</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>ls $test
-ls: folder: No such file or directory
-ls: test: No such file or directory
+ls: cannot access 'test': No such file or directory
+ls: cannot access 'folder': No such file or directory
 
 ls ${test}
-ls: folder: No such file or directory
-ls: test: No such file or directory
+ls: cannot access 'test': No such file or directory
+ls: cannot access 'folder': No such file or directory
 
 ls "$test"
 test.txt
@@ -411,12 +411,12 @@ chmod 744 start_folder-contains-space.sh
 
 <details class="wp-block-details"><summary>詳細</summary>
 <pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>ls $test
-ls: folder: No such file or directory
-ls: test: No such file or directory
+ls: cannot access 'test': No such file or directory
+ls: cannot access 'folder': No such file or directory
 
 ls ${test}
-ls: folder: No such file or directory
-ls: test: No such file or directory
+ls: cannot access 'test': No such file or directory
+ls: cannot access 'folder': No such file or directory
 
 ls "$test"
 test.txt
@@ -441,12 +441,12 @@ chmod 744 start_folder-contains-space.sh
 
 <details class="wp-block-details"><summary>詳細</summary>
 <pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>ls $test
-ls: folder: No such file or directory
-ls: test: No such file or directory
+ls: cannot access 'test': No such file or directory
+ls: cannot access 'folder': No such file or directory
 
 ls ${test}
-ls: folder: No such file or directory
-ls: test: No such file or directory
+ls: cannot access 'test': No such file or directory
+ls: cannot access 'folder': No such file or directory
 
 ls "$test"
 test.txt
